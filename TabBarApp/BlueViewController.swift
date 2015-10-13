@@ -9,11 +9,18 @@
 import UIKit
 
 class BlueViewController: UIViewController {
+    
+    var text: String?
 
+    @IBOutlet weak var label: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         print("Blue.didLoad")
+        if let text = text {
+            label.text = text
+        }
         // Do any additional setup after loading the view.
     }
 

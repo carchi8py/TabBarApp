@@ -15,6 +15,12 @@ class OrangeViewController: UIViewController, UITabBarControllerDelegate {
         
         tabBarController?.delegate = self
         
+        // [0] will give you the first view controller
+        if let blueViewController = tabBarController?.viewControllers?[1] as? BlueViewController {
+            
+            blueViewController.text = "Hi from orange"
+        }
+        
         print("Orange.didLoad")
         // Do any additional setup after loading the view.
     }
