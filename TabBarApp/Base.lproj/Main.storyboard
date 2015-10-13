@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Blue-->
         <scene sceneID="vug-sN-Gje">
             <objects>
-                <viewController id="qaZ-zU-gId" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="BlueViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="qaZ-zU-gId" customClass="BlueViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0GL-J3-3Eb"/>
                         <viewControllerLayoutGuide type="bottom" id="9vA-Uf-yJM"/>
@@ -18,16 +18,16 @@
                         <animations/>
                         <color key="backgroundColor" red="0.82049239309999999" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" image="album-simple-7" badgeValue="5" id="Y5z-Mq-0U9"/>
+                    <tabBarItem key="tabBarItem" title="Blue" image="album-simple-7" badgeValue="5" id="Y5z-Mq-0U9"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p3b-9D-1ew" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="680" y="769"/>
         </scene>
-        <!--Item-->
+        <!--Yellow-->
         <scene sceneID="XJv-Ub-WG5">
             <objects>
-                <viewController id="tp5-6x-23t" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="YellowViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tp5-6x-23t" customClass="YellowViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="JJ4-FN-Qzh"/>
                         <viewControllerLayoutGuide type="bottom" id="Eaw-Tc-nxO"/>
@@ -38,16 +38,16 @@
                         <animations/>
                         <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="basketball-7" id="2zM-Wi-iEW"/>
+                    <tabBarItem key="tabBarItem" title="Yellow" image="basketball-7" id="2zM-Wi-iEW"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nae-La-age" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="681" y="1452"/>
         </scene>
-        <!--Item 1-->
+        <!--Orange-->
         <scene sceneID="2uo-46-H6x">
             <objects>
-                <viewController id="t4O-8q-ob5" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="OrangeViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t4O-8q-ob5" customClass="OrangeViewController" customModule="TabBarApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NPe-yS-PXG"/>
                         <viewControllerLayoutGuide type="bottom" id="sAT-LQ-rwJ"/>
@@ -58,7 +58,7 @@
                         <animations/>
                         <color key="backgroundColor" red="1" green="0.57866467929999998" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" image="animal-element-7" id="6Ir-aX-bdN"/>
+                    <tabBarItem key="tabBarItem" title="Orange" image="animal-element-7" id="6Ir-aX-bdN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Tz-4T-Daz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -82,7 +82,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bfz-aj-fiZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-140" y="439"/>
+            <point key="canvasLocation" x="-169" y="1033"/>
         </scene>
     </scenes>
     <resources>
