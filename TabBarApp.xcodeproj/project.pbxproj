@@ -16,6 +16,7 @@
 		27B37ACC1BCCB6270070DFBF /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37ACB1BCCB6270070DFBF /* OrangeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		27B37ACE1BCCB6320070DFBF /* BlueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37ACD1BCCB6320070DFBF /* BlueViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		27B37AD01BCCB63E0070DFBF /* YellowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37ACF1BCCB63E0070DFBF /* YellowViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		27B37AD21BCCBD790070DFBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B37AD11BCCBD790070DFBF /* ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		27B37ACB1BCCB6270070DFBF /* OrangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 		27B37ACD1BCCB6320070DFBF /* BlueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueViewController.swift; sourceTree = "<group>"; };
 		27B37ACF1BCCB63E0070DFBF /* YellowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowViewController.swift; sourceTree = "<group>"; };
+		27B37AD11BCCBD790070DFBF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				27B37ACB1BCCB6270070DFBF /* OrangeViewController.swift */,
 				27B37ACD1BCCB6320070DFBF /* BlueViewController.swift */,
 				27B37ACF1BCCB63E0070DFBF /* YellowViewController.swift */,
+				27B37AD11BCCBD790070DFBF /* ViewController.swift */,
 			);
 			path = TabBarApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B37AD21BCCBD790070DFBF /* ViewController.swift in Sources */,
 				27B37AD01BCCB63E0070DFBF /* YellowViewController.swift in Sources */,
 				27B37ACC1BCCB6270070DFBF /* OrangeViewController.swift in Sources */,
 				27B37ACE1BCCB6320070DFBF /* BlueViewController.swift in Sources */,
