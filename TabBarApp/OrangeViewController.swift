@@ -8,11 +8,12 @@
 
 import UIKit
 
-class OrangeViewController: UIViewController {
+class OrangeViewController: UIViewController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        tabBarController?.delegate = self
         
         print("Orange.didLoad")
         // Do any additional setup after loading the view.
@@ -26,6 +27,19 @@ class OrangeViewController: UIViewController {
     override func viewWillAppear(animated: Bool) {
         print("Orange.Will appear")
         super.viewWillAppear(animated)
+    }
+    
+    // Tab bar delegate methods
+    
+    func tabBarController(tabBarController: UITabBarController, shouldSelectViewController viewController: UIViewController) -> Bool {
+        print("should Select: \(viewController)")
+        
+        if let blueViewController = viewController as? BlueViewController {
+            print("blue!")
+        } else if let yellowViewController = viewController as? YellowViewController {
+            print("Yellow")
+        }
+        return true
     }
     
 
